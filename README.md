@@ -1,4 +1,3 @@
-# Slutuppgifter
 
 # Sammanfattning
 Valutakonverteraren är ett textbaserat C++-program som omvandlar ett angivet belopp i svenska kronor (SEK) till en av fyra förvalda valutor: USD, EUR, GBP eller ALL. Programmet läser aktuella växlingskurser från en textfil och räknar ut det motsvarande beloppet.
@@ -6,7 +5,7 @@ Valutakonverteraren är ett textbaserat C++-program som omvandlar ett angivet be
 # Bakgrund 💵
 Problemet som det här programmet kommer lösa är svårigheten som de flesta har med att veta hur mycket exempelvis 10 SEK är i EUR (euro) eller i annan valuta. Jag valde att göra det här projektet eftersom det här är ett problem som uppstår för mig mer än vad du tror. Jag brukar varje sommar resa ner till Kosovo och Albanien och där är det två helt olika valutor, så för att veta hur mycket något hade kostat i kronor hade jag kunnat använda det här programmet till min hjälp (med avseende på inflation som ändrar värdet på valutor hela tiden). Meningen med detta är också för att det var intressant att jobba med filhantering, vilket är något jag vill ta fram.
 
-# Nyckelaspekter (frivilligt) 📂
+# Nyckelaspekter 📂
 Det unika med det här programmet är att jämfört med andra uppgifter måste man använda en extern fil för att lyckas med uppgiften. Egentligen så skulle man kunna definiera konstanterna till valutorna i programmet, men i det här fallet skulle det skrivas i en extern fil, vilket gör uppgiften betydligt mer intressant. Detta gjorde så att jag behövde anpassa programmet till att inkludera en extern fil och for-loopar (samt andra kommandon) för att initialisera de olika raderna som innehöll konstanterna och valutakurserna.
 
 # Hur används programmet? ▶️
